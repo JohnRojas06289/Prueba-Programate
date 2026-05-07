@@ -8,7 +8,7 @@ if(confirm("Presiona Aceptar si tu animal pone huevos, de lo contrario presiona 
   if(confirm("Presiona Aceptar si tu animal es terrestre, de lo contrario presiona Cancelar")){resultado="Jirafa";}else{resultado="Ballena";}
 }
 }else{
-if(confirm("Presiona Aceptar si tu animal es acuatico, de lo contrario presiona Cancelar")){resultado="Pez Payaso";}else{resultado="Serpiente";}
+if(confirm("Presiona Aceptar si tu animal es acuatico, de lo contrario presiona Cancelar")){resultado="Pez_payaso";}else{resultado="Serpiente";}
 }
 
 textfull="Tu animal es " + resultado +"!";
@@ -16,23 +16,23 @@ window.alert(textfull);
 
 switch (resultado){
 case "Ornitorrinco":
-  imgpath="./assets/img/Ornitorrinco.png"
+  imgpath="docs/assets/img/Ornitorrinco.png"
   text1="Tu animal es Ornitorrinco"
   break
 case "Jirafa":
-  imgpath="./assets/img/Jirafa.png"
+  imgpath="docs/assets/img/Jirafa.png"
   text1="Tu animal es jirafa"
   break
 case "Ballena":
-  imgpath="./assets/img/Ballena.png"
+  imgpath="docs/assets/img/Ballena.png"
   text1="Tu animal es Ballena"
   break
-case "Pez_Payaso":
-  imgpath="./assets/img/Pez_Payaso.png"
+case "Pez_payaso":
+  imgpath="docs/assets/img/Pez_payaso.png"
   text1="Tu animal es Pez Payaso"
   break
 case "Serpiente":
-  imgpath="./assets/img/Serpiente.png"
+  imgpath="docs/assets/img/Serpiente.png"
   text1="Tu animal es Serpiente"
   break
 }
